@@ -31,7 +31,7 @@ list_of_files=[
     "requirements.txt",
     "Dockerfile",
     "setup.py",
-    "dockerignore"
+    ".dockerignore"
 ]
 
 for filepath in list_of_files:
