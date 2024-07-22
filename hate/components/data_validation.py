@@ -25,7 +25,7 @@ class DataValidation:
             return True, None
 
         except Exception as e:
-            return False, str(e)
+            raise CustomException(e,sys)
 
     def validate(self):
         try:

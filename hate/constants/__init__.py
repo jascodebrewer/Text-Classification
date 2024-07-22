@@ -18,3 +18,13 @@ DATA_INGESTION_RAW_DATA_DIR = "raw_data.csv"
 # Data validation constants
 EXPECTED_IMBALANCED_COLUMNS = ['id', 'label', 'tweet']  
 EXPECTED_RAW_COLUMNS = ['Unnamed: 0','count','hate_speech','offensive_language','neither', 'class', 'tweet']  
+
+# Data Tranformation constants
+DATA_TRANSFORMATION_ARTIFACTS_DIR = 'DataTransformationArtifacts'
+TRANSFORMED_FILE_NAME='final.csv'
+DATA_DIR='data'
+ID='id'
+AXIS=1
+INPLACE=True
+DROP_Columns=['Unnamed: 0','count','hate_speech','offensive_language','neither']
+CLASS='class'

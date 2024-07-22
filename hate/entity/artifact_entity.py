@@ -16,3 +16,7 @@ class DataValidationArtifact:
     # Validation results for raw dataset
     raw_dataset_valid: Optional[bool] = None
     raw_dataset_error: Optional[str] = None
+
+@dataclass
+class DataTransformationArtifact:
+    transformed_data_path:str
