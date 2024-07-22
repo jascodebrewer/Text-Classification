@@ -44,9 +44,9 @@ class DataIngestion:
 
         try:
             self.get_data_from_s3()
-            logging.info("Fetched the data from gcloud bucket")
+            logging.info("Fetched the data from s3 bucket")
             imbalance_data_file_path, raw_data_file_path = self.unzip_and_clean()
-            logging.info("Unzipped file and split into train and valid")
+            logging.info("Unzipped the file")
 
             data_ingestion_artifacts = DataIngestionArtifact(
                 imbalance_data_file_path= imbalance_data_file_path,
