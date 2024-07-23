@@ -1,13 +1,15 @@
-numpy 
+numpy==1.21.6
 pandas 
-tensorflow==2.9.2
+tensorflow
 matplotlib
 seaborn
 nltk
 regex
 scikit-learn
+scipy==1.7.3
 from-root
-fastapi==0.78.0
-uvicorn==0.18.3
-Jinja2==3.1.2
+google-cloud-storage
+fastapi
+uvicorn
+Jinja2
 -e .
