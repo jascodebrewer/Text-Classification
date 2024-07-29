@@ -103,7 +103,7 @@ class TrainPipeline:
             data_ingestion_artifacts = self.start_data_ingestion()
             
             logging.info("Exited the run_pipeline method of TrainPipeline class") 
-             # Data Validation
+            # Data Validation
             # Data Validation
             data_validation = DataValidation(data_ingestion_artifacts)
             validation_artifacts = data_validation.validate()
